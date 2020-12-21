@@ -11,8 +11,6 @@ public class As {
         for (int i = 0;i<10000;i++) {
             sourceList.add("第" + i + "条数据");
         }
-
-        
         System.out.println("数据条数：" + sourceList.size());
 
         long a1=System.currentTimeMillis();
